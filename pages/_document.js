@@ -3,10 +3,11 @@ import Document, { Html, Head, Main, NextScript } from 'next/document'
 class MydDocument extends Document {
     static async getInitialProps (ctx) {
         const initialProps = await Document.getInitialProps(ctx)
-        return {...initialProps}
+        return { ...initialProps }
     }
 
     render () {
+        return (
         <Html>
             <Head>
                 <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet" />
@@ -17,6 +18,7 @@ class MydDocument extends Document {
 
             </body>
         </Html>
+        )
     }
 }
 

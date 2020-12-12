@@ -5,6 +5,7 @@ const theme = {
         primary: "#AE1D1D",
         primaryLight: "#FFF3F3",
         secondary: "#00FF19",
+        secondaryDark: "#4B8A08",
         light: "#FFFFFF"
     }
 }
